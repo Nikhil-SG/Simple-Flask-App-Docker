@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: pythonweb
-        image: bacdocker/exampython:v1  # Replace with your actual image
+        image: sgnikhil/simpleflask:v1  # Replace with your actual image
         ports:
         - containerPort: 5000
