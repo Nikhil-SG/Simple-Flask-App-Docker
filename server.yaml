@@ -7,8 +7,8 @@ metadata:
 spec:
   type: NodePort
   ports:
-    - port: 5000
-      targetPort: 5000
+    - port: 5070
+      targetPort: 5070
       protocol: TCP
       nodePort: 30001  # Expose the service on a specific port, replace with a desired port if needed
   selector:
