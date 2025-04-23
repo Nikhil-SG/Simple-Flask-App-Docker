@@ -18,4 +18,4 @@ spec:
       - name: pythonweb
         image: sgnikhil/simpleflask:v1  # Replace with your actual image
         ports:
-        - containerPort: 5000
+        - containerPort: 5070
