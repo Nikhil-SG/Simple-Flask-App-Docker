@@ -1,4 +1,4 @@
-from python3.10-slim 
+from python:3.10-slim 
 workdir /app
 copy requirements.txt ./
 run pip install -r requirements.txt 
