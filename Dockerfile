@@ -14,7 +14,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 5070
 
 # Define environment variable
-ENV FLASK_APP=app.py
+# ENV FLASK_APP=app.py
 
 # Run Flask app
-CMD ["flask", "run", "--host=0.0.0.0", "--port=5070"]
+CMD ["python3", "app.py"]
+#, "--host=0.0.0.0", "--port=5070"]
+# CMD ["flask", "run", "--host=0.0.0.0", "--port=5070"]
