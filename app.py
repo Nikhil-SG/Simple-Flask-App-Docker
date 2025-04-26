@@ -117,11 +117,3 @@ Postman is a software that allows you to test your APIs. It is available as a se
 You can download the desktop application from https://www.getpostman.com/downloads/.
 
 """
-
-# from flask import Flask
-# app=Flask(__name__)
-# @app.route('/')
-# def hello_world():
-#     return 'hello world!'
-# if __name__=="__main__":
-#     app.run()
