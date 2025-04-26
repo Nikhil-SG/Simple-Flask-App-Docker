@@ -24,4 +24,4 @@ COPY app.py ./
 EXPOSE 5070
 
 # Run the app
-CMD ["python", "app.py"]
+CMD ["python3", "app.py"]
