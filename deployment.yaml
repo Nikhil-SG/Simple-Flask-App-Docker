@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: pythonweb
-        image: sgnikhil/simpleflask:v1  # Replace with your actual image
+        image: sgnikhil/simpleflasks:v1  # Replace with your actual image
         ports:
         - containerPort: 5070
